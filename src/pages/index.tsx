@@ -25,7 +25,7 @@ const transition: { duration: number; ease: number[] } = {
 };
 const fetcher = (url: any) => fetch(url).then((res) => res.json());
 
-const index: React.FC<indexProps> = ({}) => {
+const Index: React.FC<indexProps> = ({}) => {
   const [isToggleOpen, setIsToggleOpen] = useState<boolean>(false);
   const { data: reviews, error } = useSwr("/api/tweets", fetcher);
 
@@ -170,4 +170,4 @@ const index: React.FC<indexProps> = ({}) => {
   );
 };
 
-export default index;
+export default Index;
