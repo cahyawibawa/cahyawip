@@ -10,6 +10,6 @@ a portfolio website for showcase my web design
 
 ### Tech Stack
 
-- ⚡ Next.Js
+- ⚡ Next.Js, TS
 - 🍃 SCSS
 - ➰ Locomotive Scroll, Framer Motion
